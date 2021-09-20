@@ -9,7 +9,6 @@
     ],
     "parser": "vue-eslint-parser",
     "parserOptions": {
-        "parser": "@babel/eslint-parser"
         "ecmaVersion": 12,
         "sourceType": "module"
     },
@@ -24,6 +23,7 @@
         "vue/html-indent": [
             "error",
             4
-        ]
+        ],
+        "vue/max-attributes-per-line": "off"
     }
 }
